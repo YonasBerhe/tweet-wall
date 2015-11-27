@@ -40,6 +40,9 @@ jQuery.fn.highlight = function(pat) {
  return this.each(function() {
   innerHighlight(this, pat.toUpperCase());
  });
+
+
+
 };
 
 jQuery.fn.removeHighlight = function() {
